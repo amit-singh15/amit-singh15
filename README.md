@@ -1,16 +1,33 @@
-## Hi there 👋
+Hi, I'm Amit Singh 👋
+AI/ML Engineer | Python Developer | GenAI & RAG | Backend Developer
 
-<!--
-**amit-singh15/amit-singh15** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build AI-powered applications, ML solutions, and scalable backend APIs using Python and modern AI technologies.
 
-Here are some ideas to get you started:
+🤖 Working on Artificial Intelligence & Machine Learning
+🧠 Building applications with GenAI, RAG & LLMs
+🚀 Developing production-ready APIs with FastAPI & Django
+👁️ Exploring Computer Vision & NLP
+🐳 Working with Docker & cloud deployment
+📚 Continuously learning and building real-world AI solutions
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🛠️ Tech Stack
+- Python Programming
+- AI / Machine Learning
+- Generative AI
+- Backend
+
+🧠 Currently Learning
+Generative AI
+RAG & Advanced Retrieval
+LangChain & LangGraph
+LLM Application Development
+Computer Vision
+MLOps & Model Deployment
+Cloud & Docker
+
+
+
+
+
+
+Database & DevOps
