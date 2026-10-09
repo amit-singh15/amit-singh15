@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/amit-singh15/amit-singh15/main/profile-banner.svg" width="100%" alt="Amit Singh profile banner" />
-</div>
-
 <p align="center">
   <a href="https://github.com/amit-singh15">
     <img src="https://img.shields.io/badge/GitHub-@amit--singh15-181717?style=for-the-badge&logo=github" alt="GitHub" />
