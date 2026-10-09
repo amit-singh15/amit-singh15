@@ -77,18 +77,6 @@ I'm a passionate developer focused on building intelligent systems, scalable bac
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=amit-singh15&show_icons=true&theme=tokyonight&hide_border=true" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amit-singh15&theme=tokyonight&hide_border=true" />
-</div>
-
----
-
 ## Projects
 
 - 🤖 AI-powered applications
