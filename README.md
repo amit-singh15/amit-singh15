@@ -86,28 +86,6 @@ I'm a passionate developer focused on building intelligent systems, scalable bac
 
 ---
 
-## GitHub Contributions
-
-<h2 align="center">
-  <a href="https://leetcode.com/amit-singh15/" target="_blank" style="text-decoration:none; color:inherit;">
-    46 contributions in the last year
-  </a>
-</h2>
-
-<p align="center">
-  <a href="https://leetcode.com/amit-singh15/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-amit--singh15-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://leetcode.com/amit-singh15/" target="_blank">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=amit-singh15&theme=github-dark&hide_border=true&bg_color=0d1117&color=2ea043&line=2ea043&point=2ea043" alt="GitHub contributions" width="100%" />
-  </a>
-</p>
-
----
-
 ## Connect
 
 <p align="center">
