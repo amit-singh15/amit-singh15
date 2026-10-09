@@ -1,148 +1,136 @@
 <svg width="1800" height="620" viewBox="0 0 1800 620" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1800" y2="620" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#020910"/>
-      <stop offset="0.5" stop-color="#030d18"/>
-      <stop offset="1" stop-color="#020b12"/>
+      <stop offset="0" stop-color="#010b14"/>
+      <stop offset="0.52" stop-color="#020d1a"/>
+      <stop offset="1" stop-color="#010912"/>
     </linearGradient>
-
     <linearGradient id="cyanText" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#63d6ff"/>
-      <stop offset="1" stop-color="#1eb8ff"/>
+      <stop offset="0" stop-color="#53d6ff"/>
+      <stop offset="1" stop-color="#1bb8ff"/>
     </linearGradient>
-
-    <filter id="glow">
-      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#1cc8ff" flood-opacity="0.6"/>
+    <filter id="portraitGray" x="-20%" y="-20%" width="140%" height="140%">
+      <feColorMatrix type="matrix" values="0.28 0 0 0 0  0 0.28 0 0 0  0 0 0.28 0 0 0  0 0 0 1 0"/>
+      <feGaussianBlur stdDeviation="1.1"/>
     </filter>
-
-    <filter id="gray">
-      <feColorMatrix type="matrix" values="
-        0.3 0 0 0 0
-        0 0.3 0 0 0
-        0 0.3 0 0 0
-        0 0 0 1 0"/>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#1bc7ff" flood-opacity="0.55"/>
     </filter>
   </defs>
 
   <rect width="1800" height="620" fill="url(#bg)"/>
 
-  <!-- left network -->
-  <g opacity="0.9" stroke="#1ea7ff" stroke-width="1.4" fill="none">
-    <path d="M25 70 L80 130 L140 90 L180 135 L220 100 L280 160 L330 120 L365 160" />
-    <path d="M30 230 L90 170 L150 210 L195 160 L250 210 L300 170 L350 220" />
-    <path d="M40 420 L120 360 L170 420 L230 360 L300 430 L360 390" />
-    <circle cx="25" cy="70" r="5" fill="#1ea7ff"/>
-    <circle cx="80" cy="130" r="5" fill="#1ea7ff"/>
-    <circle cx="140" cy="90" r="5" fill="#1ea7ff"/>
-    <circle cx="180" cy="135" r="5" fill="#1ea7ff"/>
-    <circle cx="220" cy="100" r="5" fill="#1ea7ff"/>
-    <circle cx="280" cy="160" r="5" fill="#1ea7ff"/>
-    <circle cx="330" cy="120" r="5" fill="#1ea7ff"/>
-    <circle cx="365" cy="160" r="5" fill="#1ea7ff"/>
-    <circle cx="30" cy="230" r="5" fill="#1ea7ff"/>
-    <circle cx="90" cy="170" r="5" fill="#1ea7ff"/>
-    <circle cx="150" cy="210" r="5" fill="#1ea7ff"/>
-    <circle cx="195" cy="160" r="5" fill="#1ea7ff"/>
-    <circle cx="250" cy="210" r="5" fill="#1ea7ff"/>
-    <circle cx="300" cy="170" r="5" fill="#1ea7ff"/>
-    <circle cx="350" cy="220" r="5" fill="#1ea7ff"/>
-    <circle cx="40" cy="420" r="5" fill="#1ea7ff"/>
-    <circle cx="120" cy="360" r="5" fill="#1ea7ff"/>
-    <circle cx="170" cy="420" r="5" fill="#1ea7ff"/>
-    <circle cx="230" cy="360" r="5" fill="#1ea7ff"/>
-    <circle cx="300" cy="430" r="5" fill="#1ea7ff"/>
-    <circle cx="360" cy="390" r="5" fill="#1ea7ff"/>
+  <!-- left cyan network -->
+  <g stroke="#1ec7ff" stroke-width="1.5" opacity="0.9" fill="none">
+    <path d="M32 55L78 116L128 86L172 136L222 97L280 160L332 122L372 160"/>
+    <path d="M42 220L92 172L154 212L200 164L252 214L306 172L354 222"/>
+    <path d="M40 410L116 360L168 418L230 360L306 432L366 390"/>
+    <path d="M12 480C64 470 98 442 132 484C164 522 205 532 240 486"/>
+    <circle cx="32" cy="55" r="6" fill="#1ec7ff"/>
+    <circle cx="78" cy="116" r="6" fill="#1ec7ff"/>
+    <circle cx="128" cy="86" r="6" fill="#1ec7ff"/>
+    <circle cx="172" cy="136" r="6" fill="#1ec7ff"/>
+    <circle cx="222" cy="97" r="6" fill="#1ec7ff"/>
+    <circle cx="280" cy="160" r="6" fill="#1ec7ff"/>
+    <circle cx="332" cy="122" r="6" fill="#1ec7ff"/>
+    <circle cx="372" cy="160" r="6" fill="#1ec7ff"/>
+
+    <circle cx="42" cy="220" r="6" fill="#1ec7ff"/>
+    <circle cx="92" cy="172" r="6" fill="#1ec7ff"/>
+    <circle cx="154" cy="212" r="6" fill="#1ec7ff"/>
+    <circle cx="200" cy="164" r="6" fill="#1ec7ff"/>
+    <circle cx="252" cy="214" r="6" fill="#1ec7ff"/>
+    <circle cx="306" cy="172" r="6" fill="#1ec7ff"/>
+    <circle cx="354" cy="222" r="6" fill="#1ec7ff"/>
+
+    <circle cx="40" cy="410" r="6" fill="#1ec7ff"/>
+    <circle cx="116" cy="360" r="6" fill="#1ec7ff"/>
+    <circle cx="168" cy="418" r="6" fill="#1ec7ff"/>
+    <circle cx="230" cy="360" r="6" fill="#1ec7ff"/>
+    <circle cx="306" cy="432" r="6" fill="#1ec7ff"/>
+    <circle cx="366" cy="390" r="6" fill="#1ec7ff"/>
   </g>
 
-  <!-- code block -->
-  <g fill="#63d6ff" font-family="Consolas, monospace" font-size="18" opacity="0.75">
-    <text x="560" y="100">def predict(data):</text>
-    <text x="560" y="135">    model = load_model()</text>
-    <text x="560" y="170">    return model.predict(data)</text>
-    <text x="560" y="250">class AIModel:</text>
-    <text x="560" y="285">    def __init__(self):</text>
-    <text x="560" y="320">        self.model = None</text>
-    <text x="560" y="370">from fastapi import FastAPI</text>
-    <text x="560" y="405">app = FastAPI()</text>
-    <text x="560" y="440">@app.get("/")</text>
-    <text x="560" y="475">def read_root():</text>
-    <text x="560" y="510">    return {"message": "Hello"}</text>
-    <text x="560" y="560"># RAG</text>
-    <text x="560" y="595">def retrieve(queries):</text>
+  <!-- center code text -->
+  <g fill="#74ddff" font-family="Consolas, monospace" font-size="18" opacity="0.75">
+    <text x="545" y="90">def predict(data):</text>
+    <text x="545" y="126">    model = load_model()</text>
+    <text x="545" y="162">    return model.predict(data)</text>
+    <text x="545" y="230">class AIModel:</text>
+    <text x="545" y="266">    def __init__(self):</text>
+    <text x="545" y="302">        self.model = None</text>
+    <text x="545" y="372">from fastapi import FastAPI</text>
+    <text x="545" y="408">app = FastAPI()</text>
+    <text x="545" y="444">@app.get("/")</text>
+    <text x="545" y="480">def read_root():</text>
+    <text x="545" y="516">    return {"message": "Hello"}</text>
+    <text x="545" y="554"># RAG</text>
+    <text x="545" y="590">def retrieve(queries):</text>
   </g>
 
-  <!-- main left heading -->
-  <text x="120" y="320" font-size="170" font-weight="800" font-family="Segoe UI, Arial, sans-serif" fill="white" letter-spacing="4">
-    AMIT
-  </text>
-  <text x="120" y="470" font-size="170" font-weight="800" font-family="Segoe UI, Arial, sans-serif" fill="url(#cyanText)" letter-spacing="4">
-    SINGH
-  </text>
+  <!-- huge name -->
+  <g filter="url(#softGlow)">
+    <text x="118" y="310" font-size="170" font-weight="800" font-family="Segoe UI, Arial, sans-serif" fill="white" letter-spacing="3">AMIT</text>
+    <text x="118" y="468" font-size="170" font-weight="800" font-family="Segoe UI, Arial, sans-serif" fill="url(#cyanText)" letter-spacing="3">SINGH</text>
+  </g>
 
-  <!-- subtitle -->
-  <text x="120" y="545" font-size="36" font-weight="600" font-family="Segoe UI, Arial, sans-serif" fill="#EAF7FF" letter-spacing="2">
-    AI/ML ENGINEER
-  </text>
-  <text x="710" y="545" font-size="36" font-weight="600" font-family="Segoe UI, Arial, sans-serif" fill="#D8F5FF" letter-spacing="2">
-    • BACKEND DEVELOPER
-  </text>
+  <!-- subtitle row -->
+  <g font-family="Segoe UI, Arial, sans-serif" font-weight="600">
+    <text x="120" y="545" font-size="36" fill="#edf8ff" letter-spacing="2">AI/ML ENGINEER</text>
+    <text x="705" y="545" font-size="36" fill="#dff7ff" letter-spacing="2">• BACKEND DEVELOPER</text>
+  </g>
 
   <!-- divider -->
-  <line x1="120" y1="570" x2="550" y2="570" stroke="#1ec9ff" stroke-width="4" opacity="0.9"/>
+  <line x1="120" y1="570" x2="560" y2="570" stroke="#1ec7ff" stroke-width="4" opacity="0.95"/>
 
-  <!-- tech row -->
-  <text x="120" y="620" font-size="34" font-weight="500" font-family="Segoe UI, Arial, sans-serif" fill="#E6F5FF">
-    Python
-  </text>
-  <text x="270" y="620" font-size="34" font-weight="500" font-family="Segoe UI, Arial, sans-serif" fill="#E6F5FF">
-    | FastAPI
-  </text>
-  <text x="450" y="620" font-size="34" font-weight="500" font-family="Segoe UI, Arial, sans-serif" fill="#E6F5FF">
-    | Django
-  </text>
-  <text x="625" y="620" font-size="34" font-weight="500" font-family="Segoe UI, Arial, sans-serif" fill="#E6F5FF">
-    | GenAI
-  </text>
-  <text x="810" y="620" font-size="34" font-weight="500" font-family="Segoe UI, Arial, sans-serif" fill="#E6F5FF">
-    | RAG
-  </text>
+  <!-- tech badges row -->
+  <g fill="#ebf8ff" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="500">
+    <text x="120" y="620">Python</text>
+    <text x="270" y="620">| FastAPI</text>
+    <text x="455" y="620">| Django</text>
+    <text x="628" y="620">| GenAI</text>
+    <text x="800" y="620">| RAG</text>
+  </g>
 
-  <!-- right portrait -->
-  <g filter="url(#gray)">
-    <image href="https://raw.githubusercontent.com/amit-singh15/amit-singh15/main/profile-banner.jpg" x="1020" y="34" width="720" height="560" preserveAspectRatio="xMidYMid meet"/>
+  <!-- right-side portrait container -->
+  <g>
+    <rect x="1100" y="20" width="620" height="520" fill="#d7d7d7" opacity="0.25"/>
+    <g filter="url(#portraitGray)">
+      <image href="https://raw.githubusercontent.com/amit-singh15/amit-singh15/main/profile-banner.jpg" x="1040" y="10" width="720" height="560" preserveAspectRatio="xMidYMid meet"/>
+    </g>
   </g>
 
   <!-- right network -->
-  <g opacity="0.9" stroke="#1ea7ff" stroke-width="1.6" fill="none">
-    <path d="M1330 70 L1390 110 L1450 70 L1500 110 L1560 70" />
-    <path d="M1340 280 L1405 245 L1480 290 L1550 250 L1620 300" />
-    <path d="M1330 470 L1395 420 L1465 470 L1540 420 L1610 470" />
-    <circle cx="1330" cy="70" r="6" fill="#1ea7ff"/>
-    <circle cx="1390" cy="110" r="6" fill="#1ea7ff"/>
-    <circle cx="1450" cy="70" r="6" fill="#1ea7ff"/>
-    <circle cx="1500" cy="110" r="6" fill="#1ea7ff"/>
-    <circle cx="1560" cy="70" r="6" fill="#1ea7ff"/>
-    <circle cx="1340" cy="280" r="6" fill="#1ea7ff"/>
-    <circle cx="1405" cy="245" r="6" fill="#1ea7ff"/>
-    <circle cx="1480" cy="290" r="6" fill="#1ea7ff"/>
-    <circle cx="1550" cy="250" r="6" fill="#1ea7ff"/>
-    <circle cx="1620" cy="300" r="6" fill="#1ea7ff"/>
-    <circle cx="1330" cy="470" r="6" fill="#1ea7ff"/>
-    <circle cx="1395" cy="420" r="6" fill="#1ea7ff"/>
-    <circle cx="1465" cy="470" r="6" fill="#1ea7ff"/>
-    <circle cx="1540" cy="420" r="6" fill="#1ea7ff"/>
-    <circle cx="1610" cy="470" r="6" fill="#1ea7ff"/>
+  <g stroke="#1ec7ff" stroke-width="1.5" opacity="0.9" fill="none">
+    <path d="M1298 132L1364 90L1430 132L1495 96L1564 136"/>
+    <path d="M1308 286L1368 246L1438 292L1502 250L1572 294"/>
+    <path d="M1300 448L1364 412L1434 456L1502 414L1578 464"/>
+    <circle cx="1298" cy="132" r="6" fill="#1ec7ff"/>
+    <circle cx="1364" cy="90" r="6" fill="#1ec7ff"/>
+    <circle cx="1430" cy="132" r="6" fill="#1ec7ff"/>
+    <circle cx="1495" cy="96" r="6" fill="#1ec7ff"/>
+    <circle cx="1564" cy="136" r="6" fill="#1ec7ff"/>
+    <circle cx="1308" cy="286" r="6" fill="#1ec7ff"/>
+    <circle cx="1368" cy="246" r="6" fill="#1ec7ff"/>
+    <circle cx="1438" cy="292" r="6" fill="#1ec7ff"/>
+    <circle cx="1502" cy="250" r="6" fill="#1ec7ff"/>
+    <circle cx="1572" cy="294" r="6" fill="#1ec7ff"/>
+    <circle cx="1300" cy="448" r="6" fill="#1ec7ff"/>
+    <circle cx="1364" cy="412" r="6" fill="#1ec7ff"/>
+    <circle cx="1434" cy="456" r="6" fill="#1ec7ff"/>
+    <circle cx="1502" cy="414" r="6" fill="#1ec7ff"/>
+    <circle cx="1578" cy="464" r="6" fill="#1ec7ff"/>
   </g>
 
-  <!-- glowing cyan bar on right as in your reference -->
+  <!-- right cyan bars -->
   <g opacity="0.9">
-    <rect x="1675" y="120" width="82" height="10" rx="5" fill="#1ec9ff"/>
-    <rect x="1675" y="165" width="82" height="10" rx="5" fill="#1ec9ff"/>
-    <rect x="1675" y="210" width="82" height="10" rx="5" fill="#1ec9ff"/>
-    <rect x="1675" y="255" width="82" height="10" rx="5" fill="#1ec9ff"/>
-    <rect x="1675" y="300" width="82" height="10" rx="5" fill="#1ec9ff"/>
+    <rect x="1678" y="90" width="74" height="12" rx="6" fill="#1ec7ff"/>
+    <rect x="1678" y="150" width="74" height="12" rx="6" fill="#1ec7ff"/>
+    <rect x="1678" y="210" width="74" height="12" rx="6" fill="#1ec7ff"/>
+    <rect x="1678" y="270" width="74" height="12" rx="6" fill="#1ec7ff"/>
+    <rect x="1678" y="330" width="74" height="12" rx="6" fill="#1ec7ff"/>
   </g>
 
-  <!-- subtle waveform at bottom -->
-  <path d="M90 610 C180 590, 240 610, 320 590 S470 575, 540 600 S670 610, 760 585" stroke="#1ea7ff" stroke-width="2" opacity="0.8" fill="none"/>
+  <!-- bottom waveform -->
+  <path d="M80 610C180 580 250 610 332 585C420 560 488 580 560 600C634 620 714 600 790 585" stroke="#1ec7ff" stroke-width="2" opacity="0.8" fill="none"/>
 </svg>
