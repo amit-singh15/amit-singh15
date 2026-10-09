@@ -1,3 +1,9 @@
+<h1 align="center">Hi, I'm Amit Singh</h1>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=AI+%2F+ML+Engineer;Backend+Developer;Generative+AI+%26+RAG" alt="Typing SVG" />
+</p>
+
 <p align="center">
   <a href="https://github.com/amit-singh15">
     <img src="https://img.shields.io/badge/GitHub-@amit--singh15-181717?style=for-the-badge&logo=github" alt="GitHub" />
