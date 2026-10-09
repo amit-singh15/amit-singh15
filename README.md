@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Amit Singh</h1>
+<h1 align="center">Hi 👋, I'm Amit Singh</h1>
 
 <p align="center">
   <a href="https://github.com/amit-singh15">
@@ -10,7 +10,7 @@
   </a>
 
   <a href="https://linkedin.com/in/amit-singh15">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-CONNECT-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
   </a>
 </p>
 
