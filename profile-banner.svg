@@ -1,136 +1,133 @@
 <svg width="1800" height="620" viewBox="0 0 1800 620" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1800" y2="620" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#010b14"/>
-      <stop offset="0.52" stop-color="#020d1a"/>
+      <stop offset="0" stop-color="#010a12"/>
+      <stop offset="0.5" stop-color="#020d1a"/>
       <stop offset="1" stop-color="#010912"/>
     </linearGradient>
     <linearGradient id="cyanText" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#53d6ff"/>
-      <stop offset="1" stop-color="#1bb8ff"/>
+      <stop offset="0" stop-color="#71dfff"/>
+      <stop offset="1" stop-color="#1ebcff"/>
     </linearGradient>
-    <filter id="portraitGray" x="-20%" y="-20%" width="140%" height="140%">
-      <feColorMatrix type="matrix" values="0.28 0 0 0 0  0 0.28 0 0 0  0 0 0.28 0 0 0  0 0 0 1 0"/>
-      <feGaussianBlur stdDeviation="1.1"/>
+    <filter id="portraitGray" x="-15%" y="-15%" width="130%" height="130%">
+      <feColorMatrix type="matrix" values="0.25 0 0 0 0  0 0.25 0 0 0  0 0 0.25 0 0 0  0 0 0 1 0"/>
+      <feGaussianBlur stdDeviation="0.9"/>
     </filter>
     <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#1bc7ff" flood-opacity="0.55"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#1cc9ff" flood-opacity="0.55"/>
     </filter>
   </defs>
 
   <rect width="1800" height="620" fill="url(#bg)"/>
 
-  <!-- left cyan network -->
-  <g stroke="#1ec7ff" stroke-width="1.5" opacity="0.9" fill="none">
-    <path d="M32 55L78 116L128 86L172 136L222 97L280 160L332 122L372 160"/>
-    <path d="M42 220L92 172L154 212L200 164L252 214L306 172L354 222"/>
-    <path d="M40 410L116 360L168 418L230 360L306 432L366 390"/>
-    <path d="M12 480C64 470 98 442 132 484C164 522 205 532 240 486"/>
-    <circle cx="32" cy="55" r="6" fill="#1ec7ff"/>
-    <circle cx="78" cy="116" r="6" fill="#1ec7ff"/>
-    <circle cx="128" cy="86" r="6" fill="#1ec7ff"/>
-    <circle cx="172" cy="136" r="6" fill="#1ec7ff"/>
-    <circle cx="222" cy="97" r="6" fill="#1ec7ff"/>
-    <circle cx="280" cy="160" r="6" fill="#1ec7ff"/>
-    <circle cx="332" cy="122" r="6" fill="#1ec7ff"/>
-    <circle cx="372" cy="160" r="6" fill="#1ec7ff"/>
-
-    <circle cx="42" cy="220" r="6" fill="#1ec7ff"/>
-    <circle cx="92" cy="172" r="6" fill="#1ec7ff"/>
-    <circle cx="154" cy="212" r="6" fill="#1ec7ff"/>
-    <circle cx="200" cy="164" r="6" fill="#1ec7ff"/>
-    <circle cx="252" cy="214" r="6" fill="#1ec7ff"/>
-    <circle cx="306" cy="172" r="6" fill="#1ec7ff"/>
-    <circle cx="354" cy="222" r="6" fill="#1ec7ff"/>
-
-    <circle cx="40" cy="410" r="6" fill="#1ec7ff"/>
-    <circle cx="116" cy="360" r="6" fill="#1ec7ff"/>
-    <circle cx="168" cy="418" r="6" fill="#1ec7ff"/>
-    <circle cx="230" cy="360" r="6" fill="#1ec7ff"/>
-    <circle cx="306" cy="432" r="6" fill="#1ec7ff"/>
-    <circle cx="366" cy="390" r="6" fill="#1ec7ff"/>
+  <!-- Left network -->
+  <g opacity="0.95" stroke="#17c2ff" stroke-width="1.5" fill="none">
+    <path d="M30 72L80 128L134 94L180 136L225 100L282 160L334 122L370 162"/>
+    <path d="M38 228L94 176L150 214L200 164L254 214L304 176L350 222"/>
+    <path d="M38 410L118 360L172 420L228 360L302 432L365 392"/>
+    <circle cx="30" cy="72" r="5" fill="#17c2ff"/>
+    <circle cx="80" cy="128" r="5" fill="#17c2ff"/>
+    <circle cx="134" cy="94" r="5" fill="#17c2ff"/>
+    <circle cx="180" cy="136" r="5" fill="#17c2ff"/>
+    <circle cx="225" cy="100" r="5" fill="#17c2ff"/>
+    <circle cx="282" cy="160" r="5" fill="#17c2ff"/>
+    <circle cx="334" cy="122" r="5" fill="#17c2ff"/>
+    <circle cx="370" cy="162" r="5" fill="#17c2ff"/>
+    <circle cx="38" cy="228" r="5" fill="#17c2ff"/>
+    <circle cx="94" cy="176" r="5" fill="#17c2ff"/>
+    <circle cx="150" cy="214" r="5" fill="#17c2ff"/>
+    <circle cx="200" cy="164" r="5" fill="#17c2ff"/>
+    <circle cx="254" cy="214" r="5" fill="#17c2ff"/>
+    <circle cx="304" cy="176" r="5" fill="#17c2ff"/>
+    <circle cx="350" cy="222" r="5" fill="#17c2ff"/>
+    <circle cx="38" cy="410" r="5" fill="#17c2ff"/>
+    <circle cx="118" cy="360" r="5" fill="#17c2ff"/>
+    <circle cx="172" cy="420" r="5" fill="#17c2ff"/>
+    <circle cx="228" cy="360" r="5" fill="#17c2ff"/>
+    <circle cx="302" cy="432" r="5" fill="#17c2ff"/>
+    <circle cx="365" cy="392" r="5" fill="#17c2ff"/>
   </g>
 
-  <!-- center code text -->
-  <g fill="#74ddff" font-family="Consolas, monospace" font-size="18" opacity="0.75">
-    <text x="545" y="90">def predict(data):</text>
-    <text x="545" y="126">    model = load_model()</text>
-    <text x="545" y="162">    return model.predict(data)</text>
-    <text x="545" y="230">class AIModel:</text>
-    <text x="545" y="266">    def __init__(self):</text>
-    <text x="545" y="302">        self.model = None</text>
-    <text x="545" y="372">from fastapi import FastAPI</text>
-    <text x="545" y="408">app = FastAPI()</text>
-    <text x="545" y="444">@app.get("/")</text>
-    <text x="545" y="480">def read_root():</text>
-    <text x="545" y="516">    return {"message": "Hello"}</text>
-    <text x="545" y="554"># RAG</text>
-    <text x="545" y="590">def retrieve(queries):</text>
+  <!-- center code hints -->
+  <g fill="#7fe5ff" font-family="Consolas, monospace" font-size="18" opacity="0.82">
+    <text x="558" y="90">def predict(data):</text>
+    <text x="558" y="126">    model = load_model()</text>
+    <text x="558" y="162">    return model.predict(data)</text>
+    <text x="558" y="236">class AIModel:</text>
+    <text x="558" y="272">    def __init__(self):</text>
+    <text x="558" y="308">        self.model = None</text>
+    <text x="558" y="374">from fastapi import FastAPI</text>
+    <text x="558" y="410">app = FastAPI()</text>
+    <text x="558" y="446">@app.get("/")</text>
+    <text x="558" y="482">def read_root():</text>
+    <text x="558" y="518">    return {"message": "Hello"}</text>
+    <text x="558" y="560"># RAG</text>
+    <text x="558" y="595">def retrieve(queries):</text>
   </g>
 
-  <!-- huge name -->
+  <!-- Main title -->
   <g filter="url(#softGlow)">
-    <text x="118" y="310" font-size="170" font-weight="800" font-family="Segoe UI, Arial, sans-serif" fill="white" letter-spacing="3">AMIT</text>
-    <text x="118" y="468" font-size="170" font-weight="800" font-family="Segoe UI, Arial, sans-serif" fill="url(#cyanText)" letter-spacing="3">SINGH</text>
+    <text x="118" y="322" font-size="170" font-weight="800" font-family="Segoe UI, Arial, sans-serif" fill="white" letter-spacing="3">AMIT</text>
+    <text x="118" y="470" font-size="170" font-weight="800" font-family="Segoe UI, Arial, sans-serif" fill="url(#cyanText)" letter-spacing="3">SINGH</text>
   </g>
 
-  <!-- subtitle row -->
+  <!-- Subtitle -->
   <g font-family="Segoe UI, Arial, sans-serif" font-weight="600">
-    <text x="120" y="545" font-size="36" fill="#edf8ff" letter-spacing="2">AI/ML ENGINEER</text>
-    <text x="705" y="545" font-size="36" fill="#dff7ff" letter-spacing="2">• BACKEND DEVELOPER</text>
+    <text x="120" y="542" font-size="36" fill="#f2fbff" letter-spacing="2">AI/ML ENGINEER</text>
+    <text x="706" y="542" font-size="36" fill="#dff8ff" letter-spacing="2">• BACKEND DEVELOPER</text>
   </g>
 
-  <!-- divider -->
-  <line x1="120" y1="570" x2="560" y2="570" stroke="#1ec7ff" stroke-width="4" opacity="0.95"/>
+  <!-- Divider -->
+  <line x1="120" y1="570" x2="550" y2="570" stroke="#1ac7ff" stroke-width="4" opacity="0.9"/>
 
-  <!-- tech badges row -->
-  <g fill="#ebf8ff" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="500">
+  <!-- Tech row -->
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="500" fill="#edf8ff">
     <text x="120" y="620">Python</text>
-    <text x="270" y="620">| FastAPI</text>
+    <text x="272" y="620">| FastAPI</text>
     <text x="455" y="620">| Django</text>
-    <text x="628" y="620">| GenAI</text>
-    <text x="800" y="620">| RAG</text>
+    <text x="631" y="620">| GenAI</text>
+    <text x="807" y="620">| RAG</text>
   </g>
 
-  <!-- right-side portrait container -->
+  <!-- Right portrait panel -->
   <g>
-    <rect x="1100" y="20" width="620" height="520" fill="#d7d7d7" opacity="0.25"/>
+    <rect x="1090" y="18" width="650" height="540" fill="#cfcfcf" opacity="0.18"/>
     <g filter="url(#portraitGray)">
-      <image href="https://raw.githubusercontent.com/amit-singh15/amit-singh15/main/profile-banner.jpg" x="1040" y="10" width="720" height="560" preserveAspectRatio="xMidYMid meet"/>
+      <image href="https://raw.githubusercontent.com/amit-singh15/amit-singh15/main/profile-banner.jpg" x="1008" y="10" width="760" height="565" preserveAspectRatio="xMidYMid meet"/>
     </g>
   </g>
 
-  <!-- right network -->
-  <g stroke="#1ec7ff" stroke-width="1.5" opacity="0.9" fill="none">
-    <path d="M1298 132L1364 90L1430 132L1495 96L1564 136"/>
-    <path d="M1308 286L1368 246L1438 292L1502 250L1572 294"/>
-    <path d="M1300 448L1364 412L1434 456L1502 414L1578 464"/>
-    <circle cx="1298" cy="132" r="6" fill="#1ec7ff"/>
-    <circle cx="1364" cy="90" r="6" fill="#1ec7ff"/>
-    <circle cx="1430" cy="132" r="6" fill="#1ec7ff"/>
-    <circle cx="1495" cy="96" r="6" fill="#1ec7ff"/>
-    <circle cx="1564" cy="136" r="6" fill="#1ec7ff"/>
-    <circle cx="1308" cy="286" r="6" fill="#1ec7ff"/>
-    <circle cx="1368" cy="246" r="6" fill="#1ec7ff"/>
-    <circle cx="1438" cy="292" r="6" fill="#1ec7ff"/>
-    <circle cx="1502" cy="250" r="6" fill="#1ec7ff"/>
-    <circle cx="1572" cy="294" r="6" fill="#1ec7ff"/>
-    <circle cx="1300" cy="448" r="6" fill="#1ec7ff"/>
-    <circle cx="1364" cy="412" r="6" fill="#1ec7ff"/>
-    <circle cx="1434" cy="456" r="6" fill="#1ec7ff"/>
-    <circle cx="1502" cy="414" r="6" fill="#1ec7ff"/>
-    <circle cx="1578" cy="464" r="6" fill="#1ec7ff"/>
+  <!-- Right network -->
+  <g opacity="0.98" stroke="#19c5ff" stroke-width="1.6" fill="none">
+    <path d="M1312 118L1384 82L1450 120L1518 86L1586 124"/>
+    <path d="M1304 280L1370 246L1438 290L1508 250L1578 290"/>
+    <path d="M1302 446L1368 412L1438 456L1510 414L1582 460"/>
+    <circle cx="1312" cy="118" r="6" fill="#19c5ff"/>
+    <circle cx="1384" cy="82" r="6" fill="#19c5ff"/>
+    <circle cx="1450" cy="120" r="6" fill="#19c5ff"/>
+    <circle cx="1518" cy="86" r="6" fill="#19c5ff"/>
+    <circle cx="1586" cy="124" r="6" fill="#19c5ff"/>
+    <circle cx="1304" cy="280" r="6" fill="#19c5ff"/>
+    <circle cx="1370" cy="246" r="6" fill="#19c5ff"/>
+    <circle cx="1438" cy="290" r="6" fill="#19c5ff"/>
+    <circle cx="1508" cy="250" r="6" fill="#19c5ff"/>
+    <circle cx="1578" cy="290" r="6" fill="#19c5ff"/>
+    <circle cx="1302" cy="446" r="6" fill="#19c5ff"/>
+    <circle cx="1368" cy="412" r="6" fill="#19c5ff"/>
+    <circle cx="1438" cy="456" r="6" fill="#19c5ff"/>
+    <circle cx="1510" cy="414" r="6" fill="#19c5ff"/>
+    <circle cx="1582" cy="460" r="6" fill="#19c5ff"/>
   </g>
 
-  <!-- right cyan bars -->
-  <g opacity="0.9">
-    <rect x="1678" y="90" width="74" height="12" rx="6" fill="#1ec7ff"/>
-    <rect x="1678" y="150" width="74" height="12" rx="6" fill="#1ec7ff"/>
-    <rect x="1678" y="210" width="74" height="12" rx="6" fill="#1ec7ff"/>
-    <rect x="1678" y="270" width="74" height="12" rx="6" fill="#1ec7ff"/>
-    <rect x="1678" y="330" width="74" height="12" rx="6" fill="#1ec7ff"/>
+  <!-- right bars -->
+  <g opacity="0.92">
+    <rect x="1676" y="112" width="86" height="10" rx="5" fill="#19c5ff"/>
+    <rect x="1676" y="165" width="86" height="10" rx="5" fill="#19c5ff"/>
+    <rect x="1676" y="218" width="86" height="10" rx="5" fill="#19c5ff"/>
+    <rect x="1676" y="271" width="86" height="10" rx="5" fill="#19c5ff"/>
+    <rect x="1676" y="324" width="86" height="10" rx="5" fill="#19c5ff"/>
   </g>
 
   <!-- bottom waveform -->
-  <path d="M80 610C180 580 250 610 332 585C420 560 488 580 560 600C634 620 714 600 790 585" stroke="#1ec7ff" stroke-width="2" opacity="0.8" fill="none"/>
+  <path d="M70 610C170 584 245 610 330 585C418 560 484 578 560 602C642 626 720 602 794 584" stroke="#1ec6ff" stroke-width="2" opacity="0.8" fill="none"/>
 </svg>
