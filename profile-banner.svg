@@ -1,0 +1,148 @@
+<svg width="1800" height="620" viewBox="0 0 1800 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1800" y2="620" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#020910"/>
+      <stop offset="0.5" stop-color="#030d18"/>
+      <stop offset="1" stop-color="#020b12"/>
+    </linearGradient>
+
+    <linearGradient id="cyanText" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#63d6ff"/>
+      <stop offset="1" stop-color="#1eb8ff"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#1cc8ff" flood-opacity="0.6"/>
+    </filter>
+
+    <filter id="gray">
+      <feColorMatrix type="matrix" values="
+        0.3 0 0 0 0
+        0 0.3 0 0 0
+        0 0.3 0 0 0
+        0 0 0 1 0"/>
+    </filter>
+  </defs>
+
+  <rect width="1800" height="620" fill="url(#bg)"/>
+
+  <!-- left network -->
+  <g opacity="0.9" stroke="#1ea7ff" stroke-width="1.4" fill="none">
+    <path d="M25 70 L80 130 L140 90 L180 135 L220 100 L280 160 L330 120 L365 160" />
+    <path d="M30 230 L90 170 L150 210 L195 160 L250 210 L300 170 L350 220" />
+    <path d="M40 420 L120 360 L170 420 L230 360 L300 430 L360 390" />
+    <circle cx="25" cy="70" r="5" fill="#1ea7ff"/>
+    <circle cx="80" cy="130" r="5" fill="#1ea7ff"/>
+    <circle cx="140" cy="90" r="5" fill="#1ea7ff"/>
+    <circle cx="180" cy="135" r="5" fill="#1ea7ff"/>
+    <circle cx="220" cy="100" r="5" fill="#1ea7ff"/>
+    <circle cx="280" cy="160" r="5" fill="#1ea7ff"/>
+    <circle cx="330" cy="120" r="5" fill="#1ea7ff"/>
+    <circle cx="365" cy="160" r="5" fill="#1ea7ff"/>
+    <circle cx="30" cy="230" r="5" fill="#1ea7ff"/>
+    <circle cx="90" cy="170" r="5" fill="#1ea7ff"/>
+    <circle cx="150" cy="210" r="5" fill="#1ea7ff"/>
+    <circle cx="195" cy="160" r="5" fill="#1ea7ff"/>
+    <circle cx="250" cy="210" r="5" fill="#1ea7ff"/>
+    <circle cx="300" cy="170" r="5" fill="#1ea7ff"/>
+    <circle cx="350" cy="220" r="5" fill="#1ea7ff"/>
+    <circle cx="40" cy="420" r="5" fill="#1ea7ff"/>
+    <circle cx="120" cy="360" r="5" fill="#1ea7ff"/>
+    <circle cx="170" cy="420" r="5" fill="#1ea7ff"/>
+    <circle cx="230" cy="360" r="5" fill="#1ea7ff"/>
+    <circle cx="300" cy="430" r="5" fill="#1ea7ff"/>
+    <circle cx="360" cy="390" r="5" fill="#1ea7ff"/>
+  </g>
+
+  <!-- code block -->
+  <g fill="#63d6ff" font-family="Consolas, monospace" font-size="18" opacity="0.75">
+    <text x="560" y="100">def predict(data):</text>
+    <text x="560" y="135">    model = load_model()</text>
+    <text x="560" y="170">    return model.predict(data)</text>
+    <text x="560" y="250">class AIModel:</text>
+    <text x="560" y="285">    def __init__(self):</text>
+    <text x="560" y="320">        self.model = None</text>
+    <text x="560" y="370">from fastapi import FastAPI</text>
+    <text x="560" y="405">app = FastAPI()</text>
+    <text x="560" y="440">@app.get("/")</text>
+    <text x="560" y="475">def read_root():</text>
+    <text x="560" y="510">    return {"message": "Hello"}</text>
+    <text x="560" y="560"># RAG</text>
+    <text x="560" y="595">def retrieve(queries):</text>
+  </g>
+
+  <!-- main left heading -->
+  <text x="120" y="320" font-size="170" font-weight="800" font-family="Segoe UI, Arial, sans-serif" fill="white" letter-spacing="4">
+    AMIT
+  </text>
+  <text x="120" y="470" font-size="170" font-weight="800" font-family="Segoe UI, Arial, sans-serif" fill="url(#cyanText)" letter-spacing="4">
+    SINGH
+  </text>
+
+  <!-- subtitle -->
+  <text x="120" y="545" font-size="36" font-weight="600" font-family="Segoe UI, Arial, sans-serif" fill="#EAF7FF" letter-spacing="2">
+    AI/ML ENGINEER
+  </text>
+  <text x="710" y="545" font-size="36" font-weight="600" font-family="Segoe UI, Arial, sans-serif" fill="#D8F5FF" letter-spacing="2">
+    • BACKEND DEVELOPER
+  </text>
+
+  <!-- divider -->
+  <line x1="120" y1="570" x2="550" y2="570" stroke="#1ec9ff" stroke-width="4" opacity="0.9"/>
+
+  <!-- tech row -->
+  <text x="120" y="620" font-size="34" font-weight="500" font-family="Segoe UI, Arial, sans-serif" fill="#E6F5FF">
+    Python
+  </text>
+  <text x="270" y="620" font-size="34" font-weight="500" font-family="Segoe UI, Arial, sans-serif" fill="#E6F5FF">
+    | FastAPI
+  </text>
+  <text x="450" y="620" font-size="34" font-weight="500" font-family="Segoe UI, Arial, sans-serif" fill="#E6F5FF">
+    | Django
+  </text>
+  <text x="625" y="620" font-size="34" font-weight="500" font-family="Segoe UI, Arial, sans-serif" fill="#E6F5FF">
+    | GenAI
+  </text>
+  <text x="810" y="620" font-size="34" font-weight="500" font-family="Segoe UI, Arial, sans-serif" fill="#E6F5FF">
+    | RAG
+  </text>
+
+  <!-- right portrait -->
+  <g filter="url(#gray)">
+    <image href="https://raw.githubusercontent.com/amit-singh15/amit-singh15/main/profile-banner.jpg" x="1020" y="34" width="720" height="560" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+
+  <!-- right network -->
+  <g opacity="0.9" stroke="#1ea7ff" stroke-width="1.6" fill="none">
+    <path d="M1330 70 L1390 110 L1450 70 L1500 110 L1560 70" />
+    <path d="M1340 280 L1405 245 L1480 290 L1550 250 L1620 300" />
+    <path d="M1330 470 L1395 420 L1465 470 L1540 420 L1610 470" />
+    <circle cx="1330" cy="70" r="6" fill="#1ea7ff"/>
+    <circle cx="1390" cy="110" r="6" fill="#1ea7ff"/>
+    <circle cx="1450" cy="70" r="6" fill="#1ea7ff"/>
+    <circle cx="1500" cy="110" r="6" fill="#1ea7ff"/>
+    <circle cx="1560" cy="70" r="6" fill="#1ea7ff"/>
+    <circle cx="1340" cy="280" r="6" fill="#1ea7ff"/>
+    <circle cx="1405" cy="245" r="6" fill="#1ea7ff"/>
+    <circle cx="1480" cy="290" r="6" fill="#1ea7ff"/>
+    <circle cx="1550" cy="250" r="6" fill="#1ea7ff"/>
+    <circle cx="1620" cy="300" r="6" fill="#1ea7ff"/>
+    <circle cx="1330" cy="470" r="6" fill="#1ea7ff"/>
+    <circle cx="1395" cy="420" r="6" fill="#1ea7ff"/>
+    <circle cx="1465" cy="470" r="6" fill="#1ea7ff"/>
+    <circle cx="1540" cy="420" r="6" fill="#1ea7ff"/>
+    <circle cx="1610" cy="470" r="6" fill="#1ea7ff"/>
+  </g>
+
+  <!-- glowing cyan bar on right as in your reference -->
+  <g opacity="0.9">
+    <rect x="1675" y="120" width="82" height="10" rx="5" fill="#1ec9ff"/>
+    <rect x="1675" y="165" width="82" height="10" rx="5" fill="#1ec9ff"/>
+    <rect x="1675" y="210" width="82" height="10" rx="5" fill="#1ec9ff"/>
+    <rect x="1675" y="255" width="82" height="10" rx="5" fill="#1ec9ff"/>
+    <rect x="1675" y="300" width="82" height="10" rx="5" fill="#1ec9ff"/>
+  </g>
+
+  <!-- subtle waveform at bottom -->
+  <path d="M90 610 C180 590, 240 610, 320 590 S470 575, 540 600 S670 610, 760 585" stroke="#1ea7ff" stroke-width="2" opacity="0.8" fill="none"/>
+</svg>
